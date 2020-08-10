@@ -45,6 +45,7 @@ main {
     max-width: 1440px;
     margin:auto;
     font-family: 'Karla', sans-serif;
+    border-radius: 10px;
 }
 .row {
     display: flex;
