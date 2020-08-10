@@ -1,0 +1,114 @@
+/****
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+
+****/
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+main {
+    background-color: #fff;
+    max-width: 1440px;
+    margin:auto;
+    font-family: 'Karla', sans-serif;
+}
+.row {
+    display: flex;
+}
+.white-text {
+    color: #fff !important;
+}
+
+/****** TOP SECTION ********/
+.title {
+    color:hsl(179, 62%, 43%);
+}
+.sub-title {
+    color:hsl(71, 73%, 54%); 
+}
+.main-text {
+   color: hsl(218, 22%, 67%);
+}
+.top-area {
+    padding:35px;
+}
+
+/***** COLUMN LEFT ****/
+.column-title {
+    color: #FFF;
+}
+.pricing-text {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+.price {
+    font-size: 35px;
+    font-weight: 700;
+    padding-right: 5px;
+}
+.whitetext {
+    color:#FFF;
+}
+.left-column {
+    flex:50%;
+    background-color: hsl(179, 62%, 42%);
+    padding: 35px 40px;
+}
+.signup {
+    border:none;
+    border-radius:5px;
+    background-color: hsl(71, 73%, 54%);
+    color:#fff;
+    padding:15px 90px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    font-size: 16px;
+}
+/**** COLUMN RIGHT ****/
+.right-column {
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px 45px;
+    flex: 50%;
+}
+.why-list {
+    list-style: none;
+     padding: 0;
+}
+.list-item {
+    color:#fff;
+    line-height:23px;
+}
